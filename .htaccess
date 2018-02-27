@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteCond %{REQUEST_URI} .html [NC]
+RewriteRule ^(.*).html$ $1.php
+
+Options -Indexes
